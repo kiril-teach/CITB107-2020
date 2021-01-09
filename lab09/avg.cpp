@@ -37,7 +37,7 @@ vector<float> readInput(istream &in, vector<float> &input)
 
 void writeOutput(ostream &out, const vector<float> input, float result)
 {
-    cout << "sum(";
+    cout << "avg(";
     for (int i = 0; i < input.size(); i++)
     {
         cout << input[i];
@@ -63,4 +63,4 @@ int main()
     writeOutput(cout, input, result);
 
     return 0;
-}   
+}
